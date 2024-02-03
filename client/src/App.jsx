@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <div className='flex'>
-        <div>
+        {/* <div>
           <SideBar>
             <SideBarItems icon={<GanttChartSquare />} text={'DashBoard'} active />
             <SideBarItems icon={<PieChart />} text={'PieChart'} />
@@ -30,9 +30,9 @@ function App() {
             <SideBarItems icon={<Blocks />} text={'Plugins'} />
             <SideBarItems icon={<BadgeHelp />} text={'Help'} />
           </SideBar>
-        </div>
+        </div> */}
         <div className='flex-1 '>
-          <NavBar />
+          {/* <NavBar /> */}
           <DashBoard />
         </div>
       </div>
